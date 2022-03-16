@@ -1,0 +1,13 @@
+#seperate the even and odd numbers
+l=[1,2,4,3,5,3,6]
+ev=[]
+od=[]
+o=[' ']
+for i in l:
+    if i%2==0:
+        ev.append(i)
+    else:
+        od.append(i)
+k=od+o+ev
+for i in k:
+    print(i,end='')
